@@ -1,0 +1,44 @@
+nav {
+
+	float: right;
+
+	ul {
+		list-style: none;
+		li {
+			display: inline-block;
+			a {
+				color: white;
+				text-transform: uppercase;
+				font-weight: bold;
+
+				&:hover {
+					color: white;
+					text-decoration: underline;
+				}				
+			}
+		}
+	}
+
+	&.secondary {
+		margin-top: 20px;
+		ul {
+			li {
+				margin-left: 7px;
+				a {
+					font-size: 12px;
+				}
+			}
+		}					
+	}
+	&.primary {
+		ul {
+			li {
+				margin-left: 15px;
+				a {
+					font-size: 16px;
+				}
+			}
+		}			
+	}
+
+}

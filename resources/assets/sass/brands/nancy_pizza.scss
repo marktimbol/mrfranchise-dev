@@ -1,0 +1,27 @@
+$brandColor: #231f20;
+$brandColorTransparent: rgba(35, 31, 32, 0.8);
+
+body {
+	&.nancy-pizza-page {
+		.brand-overlay {
+			background: $brandColorTransparent;
+		}
+
+		header {
+			background: $brandColorTransparent;
+		}
+
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					background: $brandColor;
+				}
+			}
+		}
+	}
+}
+
+.nancy-pizza {
+	background: $brandColor !important;
+}

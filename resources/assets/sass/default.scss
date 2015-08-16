@@ -1,0 +1,16 @@
+.page-default {
+	.page-content {
+		width: 100%;
+		padding-top: 150px;
+		background-size: cover;
+		background: url('../images/local-woman.jpg') 50% 0% no-repeat;		
+		
+		.container {
+			//background: rgba(0,0,0,0.8);
+			padding: 20px;
+			.img-thumbnail {
+				margin-bottom: 25px;
+			}	
+		}
+	}
+}

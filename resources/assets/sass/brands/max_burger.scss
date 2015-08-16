@@ -1,0 +1,30 @@
+$brandColor: #ef2227;
+$brandColorTransparent: rgba(239, 34, 39, 0.8);
+
+body {
+	&.max-burger-page {
+		.brand-overlay {
+			background: $brandColorTransparent;
+		}
+
+		header {
+			background: $brandColorTransparent;
+		}
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					background: $brandColor;
+				}
+			}
+		}
+	}
+}
+
+.rightside-menu {
+	a {
+		&.max-burger {
+			background: $brandColorTransparent;
+		}
+	}
+}

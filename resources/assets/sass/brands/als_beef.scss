@@ -1,0 +1,30 @@
+$brandColor: #fff200;
+$brandColorTransparent: rgba(255, 242, 0, 0.8);
+
+body {
+	&.als-beef-page {
+		.brand-overlay {
+			background: $brandColorTransparent;
+		}
+
+		header {
+			background: $brandColorTransparent;
+		}
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					background: $brandColor;
+				}
+			}
+		}
+	}
+}
+
+.cd-timeline-img.als-beef {
+	background: $brandColor;
+}
+
+.als-beef {
+	background: $brandColor !important;
+}

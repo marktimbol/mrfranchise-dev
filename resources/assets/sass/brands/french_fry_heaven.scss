@@ -1,0 +1,30 @@
+$brandColor: #0386b2;
+$brandColorTransparent: rgba(3, 134, 178, 0.8);
+
+body {
+	&.french-fry-heaven-page {
+		.brand-overlay {
+			background: $brandColorTransparent;
+		}
+
+		header {
+			background: $brandColorTransparent;
+		}
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					background: $brandColor;
+				}
+			}
+		}
+	}
+}
+
+.cd-timeline-img.french-fry-heaven {
+	background: $brandColor;
+}
+
+.french-fry-heaven {
+	background: $brandColor !important;
+}

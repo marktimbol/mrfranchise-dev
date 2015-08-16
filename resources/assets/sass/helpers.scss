@@ -1,0 +1,77 @@
+.img-responsive {
+	width: 100%;
+}
+
+.dark {
+	h2 {
+		color: white;
+	}
+	p { color: white; }
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.float-right {
+	float: right;
+}
+
+.modal {
+	z-index: 9999;
+}
+
+.light-background { //Al's beef yellow background
+	h2, p {
+		color: #333 !important;
+	}
+
+	.btn {
+		color: #333;
+	}
+
+	ul {
+		li {
+			color: #333;
+		}
+	}
+}
+
+.overlay {
+	background: url('../images/overlay.png') repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}  	
+
+.panel { //faq section
+	p {
+		color: #333;
+	}
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	display: none;
+}
+
+.mobile-only {
+	display: none;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.no-padding {
+	[class*="col-"] {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.col-md-3 {
+		padding: 1px !important;
+  	}
+}

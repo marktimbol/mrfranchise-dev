@@ -1,0 +1,22 @@
+$brandColor: #ed1e24;
+$brandColorTransparent: rgba(237, 30, 36, 0.8);
+
+body {
+	&.lobster-joint-page {
+		.brand-overlay {
+			background: $brandColorTransparent;
+		}
+
+		header {
+			background: $brandColorTransparent;
+		}
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					background: $brandColor;
+				}
+			}
+		}
+	}
+}

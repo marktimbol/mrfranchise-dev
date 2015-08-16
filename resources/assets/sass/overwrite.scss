@@ -1,0 +1,43 @@
+$darkColor: #333;
+
+.panel-title {
+	font-size: 18px;
+}
+
+.owl-carousel {
+	li {
+		text-align: center;
+	}
+}
+
+#cd-timeline {
+	.cd-timeline-block {
+		.cd-timeline-img {
+
+		}
+
+		.cd-timeline-content {
+			h2 {
+				font-size: 24px;
+				color: red;
+				margin-top: 0;
+				margin-bottom: 5px;
+			}
+
+			h3 {
+				font-size: 20px;
+				color: $darkColor;
+				margin-top: 0;
+			}
+
+			p {
+				font-size: 16px;
+				color: $darkColor;
+			}
+
+			.cd-date {
+				color: white;
+			}
+		}
+	}
+}

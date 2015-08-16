@@ -1,0 +1,79 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;	
+    .swiper-wrapper {
+	    .swiper-slide {
+			text-align: center;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;   
+
+			position:relative;
+
+			.swiper-content {
+				position: absolute;
+				top: 40%;
+				left: 7%;
+				z-index: 9999;
+
+				width: 1170px;
+				right: 0;
+				left: 0;
+				margin: auto;
+				
+				h2 {
+					color: white;
+					text-transform: uppercase;
+					text-align: left !important;
+					line-height: 1.3em;
+				
+				}
+
+				p {
+					margin-top: 30px;		
+					text-align: left !important;
+				}
+
+				&.media-gallery {
+					.col-md-3 {
+						//margin-bottom: 25px;
+					}
+
+					ul.press {
+						list-style: none;
+						li {
+							margin-bottom: 20px;
+							h4 {
+								margin-bottom: 5px;
+								a {
+									color: white;
+								}
+							}
+							p {
+								font-size: 12px;
+								margin-top: 0px;
+							}
+						}
+					}
+				}
+
+			}
+
+			img {
+				width: 100%;
+			}	
+		
+	    } 
+
+
+    }
+}

@@ -1,0 +1,284 @@
+
+@mixin mobileStyles() {
+
+	.desktop-only {
+		display: none !important;
+	}
+
+	.btn {
+		padding: 8px 15px;
+	}
+
+	a#tellMeMore { display: none; }
+
+	.rightside-menu {
+		display: none !important;
+	}
+
+	header {
+
+		h1 {
+			img {
+				width: 100%;
+			}
+		}
+
+		#trigger-overlay {
+			top: -60px !important;
+		}
+
+		nav {
+			&.primary, &.secondary {
+				display: none !important;
+			}
+			
+		}
+
+		.clearfix {
+			display: none !important;
+		}
+	}
+
+	.swiper-container {
+
+		.swiper-content {
+			//width: 350px;
+			width: 100% !important;
+			h2 {
+				font-size: 12px;	
+			}
+
+			ul {
+				margin-left: 0px !important;
+				li {
+					font-size: 13px !important;
+					display: inline-block;
+					margin-right: 10px;
+				}
+				&:after {
+					clear: both;
+				}
+			}
+
+			p {
+				font-size: 13px !important;
+				margin-top: 5px !important;
+			}
+
+			.btn {
+				padding: 2px 5px;
+				border: 1px solid #fff !important;
+				text-transform: lowercase;
+				position: absolute;
+			}	
+		}
+	}
+
+	#mediaGallery {
+		h3 {
+			margin-left: 20px;
+		}
+	}
+	
+	.parallax {
+		.btn {
+			display: block;
+		}
+	}
+
+	.swiper-custom-nav {
+		display: none !important;
+	}
+
+	.rightside-popups {
+		display: none !important;
+	}
+
+	.mobile-only {
+		display: block;
+		.brands {
+			list-style: none;
+			overflow: hidden;
+			margin: 0;
+			li {
+				padding: 5px;
+			}
+		}
+	}
+
+	body.brand-page {
+
+		header {
+
+			h1 {
+				img {
+					//width: 100% !important;
+				}				
+			}
+			h2 {
+				font-size: 20px;
+				margin-left: 0px !important;
+				margin-top: 35px !important;
+				text-align: center;
+			}
+		}
+
+		.swiper-container {
+			height: 375px;
+		}
+
+		.parallax {
+			.content {
+				.logo-inquire {
+					margin: 0 auto;
+				}
+
+				h2 {
+					text-align: center !important;
+				}
+
+				.col-md-10 {
+					margin-top: 100px;
+				}
+			}
+		}
+
+		.mobile-only {
+			.brands {
+				margin-top: -50px;
+				position: relative;
+				z-index: 999;	
+			}
+		}		
+
+		#trigger-overlay {
+			top: 25px !important;
+		}		
+	}
+
+	.page-content {
+		background: url(../images/local-woman.jpg) 30% 0% no-repeat !important;
+
+		.container {
+			margin-right: 0px !important;
+		}
+	}
+
+
+	.page-default {
+		.page-content {
+			padding-top: 0px !important;
+		}
+	}
+
+
+	#ourBrands {
+		background: url(../images/franchise-opportunity-bg.jpg) 40% 80% no-repeat !important;
+	}
+
+}
+
+@mixin ipadStyles() {
+
+	header {
+
+		h1 {
+			img {
+				width: 100% !important;
+			}				
+		}
+	}
+
+
+	.swiper-container {
+		.swiper-content {
+			h2 {
+				font-size: 30px;
+			}
+			.btn {
+				padding: 15px 25px;
+			}
+		}
+	}
+	body {
+		&.brand-page {
+			header {
+				h2 {
+					margin-top: 24px!important;
+				}
+			}
+			.swiper-container {
+				.swiper-content {
+					top: 40% !important;
+					p {
+						font-size: 16px !important;
+					}
+				}
+			}
+			.parallax {
+				.content {
+					.col-md-10 {
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 40em) {
+
+	@include mobileStyles();
+	
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+@media only screen and (width: 320px) {
+
+}
+
+@media only screen and (width: 1024px) {
+
+}
+
+
+@media only screen and (width: 375px) {
+
+
+}
+
+
+@media only screen and (width: 414px) {
+
+}
+
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+
+	
+
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+	@include mobileStyles();
+
+	@include ipadStyles();
+
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
