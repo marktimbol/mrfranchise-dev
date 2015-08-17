@@ -3,7 +3,7 @@
 		'name'	=> "Al's Beef",
 		'logo'	=> 'als-beef.png',
 		'directory' => 'als',
-
+		'website'	=> 'http://www.alsbeef.com/',
 		'slides' => array(
 			0 => array(
 				'background' => 'public/images/als/als-beef-bg.jpg',
@@ -46,6 +46,11 @@
 				'content' => 'gallery',
 				'class' => 'media-gallery'
 				)
+		),
+
+		'video'	=> array(
+			'url'		=> 	'https://www.youtube.com/watch?v=lISwoegS-yI',
+			'poster'	=> 	'public/videos/als-beef/poster.jpg'
 		)
 	);
 

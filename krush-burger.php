@@ -3,7 +3,7 @@
 		'name'	=> "Krush Burger",
 		'logo'	=> 'krush-burger.png',
 		'directory' => 'krush-burger',
-
+		'website'	=> 'http://www.krushburger.com/',
 		'slides' => array(
 			0 => array(
 				'background' => 'public/images/krush-burger/slide1.JPG',
@@ -45,6 +45,11 @@
 				'content' => 'gallery',
 				'class' => 'media-gallery'
 				)
+		),
+
+		'video'	=> array(
+			'url'		=> 	'#',
+			'poster'	=> 	'public/videos/krush-burger/poster.jpg'
 		)
 	);
 

@@ -7,6 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 var js_path = 'resources/assets/js/';
 var css_path = 'resources/assets/css/';
+var bower_components = 'resources/assets/bower_components/';
 
 gulp.task('sass', function () {
 	gulp.src('resources/assets/sass/app.scss')
@@ -44,6 +45,8 @@ gulp.task('scripts', function() {
   		js_path + 'vendor/jquery.easing.min.js',
   		js_path + 'vendor/jquery.prettyPhoto.js',
   		js_path + 'vendor/overlay.js',
+  		// bower_components + 'masonry/dist/masonry.pkgd.js',
+  		// js_path + 'vendor/imagesloaded.pkgd.min.js',
   		js_path + 'app.js' 
   	])
     .pipe(concat('all.js'))

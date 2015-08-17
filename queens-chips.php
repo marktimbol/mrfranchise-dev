@@ -3,7 +3,7 @@
 		'name'	=> "Queen's Chips",
 		'logo'	=> 'queens-chips.png',
 		'directory' => 'queens-chips', //public/images/
-
+		'website'	=> 'http://www.queenschips.eu/',
 		'slides' => array(
 			0 => array(
 				'background' => 'public/images/queens-chips/slide1.jpg',
@@ -47,6 +47,11 @@
 				'content' => 'gallery',
 				'class' => 'media-gallery'
 				)
+		),
+
+		'video'	=> array(
+			'url'		=> 	'https://www.youtube.com/watch?v=0JMb2oBwwJw',
+			'poster'	=> 	'public/videos/queens-chips/poster.jpg'
 		)
 	);
 

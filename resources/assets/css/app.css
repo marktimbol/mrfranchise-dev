@@ -100,7 +100,8 @@ footer {
   height: 50px; }
   footer p.copyright {
     color: white;
-    margin-top: 15px; }
+    margin-top: 15px;
+    text-align: center; }
 
 .img-responsive {
   width: 100%; }
@@ -119,6 +120,16 @@ footer {
 
 .modal {
   z-index: 9999; }
+  .modal .modal-header {
+    background: #303135; }
+    .modal .modal-header .modal-logo {
+      text-align: center; }
+    .modal .modal-header .close {
+      color: white;
+      opacity: 1;
+      position: absolute;
+      right: 20px;
+      top: 20px; }
 
 .light-background h2, .light-background p {
   color: #333 !important; }
@@ -346,18 +357,7 @@ footer {
       .swiper-container .swiper-wrapper .swiper-slide .swiper-content p {
         margin-top: 30px;
         text-align: left !important; }
-      .swiper-container .swiper-wrapper .swiper-slide .swiper-content.media-gallery ul.press {
-        list-style: none; }
-        .swiper-container .swiper-wrapper .swiper-slide .swiper-content.media-gallery ul.press li {
-          margin-bottom: 20px; }
-          .swiper-container .swiper-wrapper .swiper-slide .swiper-content.media-gallery ul.press li h4 {
-            margin-bottom: 5px; }
-            .swiper-container .swiper-wrapper .swiper-slide .swiper-content.media-gallery ul.press li h4 a {
-              color: white; }
-          .swiper-container .swiper-wrapper .swiper-slide .swiper-content.media-gallery ul.press li p {
-            font-size: 12px;
-            margin-top: 0px; }
-    .swiper-container .swiper-wrapper .swiper-slide img {
+    .swiper-container .swiper-wrapper .swiper-slide img.slide-background {
       width: 100%; }
 
 nav {
@@ -597,7 +597,7 @@ body.backyard-burger-page .parallax .content .logo-inquire {
   header h1 img {
     width: 100%; }
   header #trigger-overlay {
-    top: -60px !important; }
+    top: 30px !important; }
   header nav.primary, header nav.secondary {
     display: none !important; }
   header .clearfix {
@@ -680,7 +680,7 @@ body.backyard-burger-page .parallax .content .logo-inquire {
   header h1 img {
     width: 100%; }
   header #trigger-overlay {
-    top: -60px !important; }
+    top: 30px !important; }
   header nav.primary, header nav.secondary {
     display: none !important; }
   header .clearfix {

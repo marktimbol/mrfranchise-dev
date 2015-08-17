@@ -19,6 +19,21 @@
 
 .modal {
 	z-index: 9999;
+	.modal-header {
+		background: $logo_bg_color;
+
+		.modal-logo {
+			text-align: center;
+		}
+		
+		.close {
+		    color: white;
+		    opacity: 1;
+		    position: absolute;
+		    right: 20px;
+		    top: 20px;		    
+		}
+	}
 }
 
 .light-background { //Al's beef yellow background

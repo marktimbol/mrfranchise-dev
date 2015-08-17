@@ -3,7 +3,7 @@
 		'name'	=> "Nancy's Pizza",
 		'logo'	=> 'nancy-pizza.png',
 		'directory' => 'nancy-pizza', //public/images/
-
+		'website'	=> 'http://www.nancyspizza.com/',
 		'slides' => array(
 			0 => array(
 				'background' => 'public/images/nancy-pizza/slide1.jpg',
@@ -47,7 +47,13 @@
 				'content' => 'gallery',
 				'class' => 'media-gallery'
 				)
+		),
+
+		'video'	=> array(
+			'url'		=> 	'https://www.youtube.com/watch?v=fUeVhJDgq8k',
+			'poster'	=> 	'public/videos/nancy-pizza/poster.jpg'
 		)
+
 	);
 
 	include('header.php');

@@ -3,7 +3,7 @@
 		'name'	=> "Backyard Burger",
 		'logo'	=> 'backyard-burger.png',
 		'directory' => 'backyard-burger', //public/images/
-
+		'website'	=> 'http://backyardburgers.com/',
 		'slides' => array(
 			0 => array(
 				'background' => 'public/images/backyard-burger/slide1.jpg',
@@ -32,7 +32,8 @@
 				'background' => 'public/images/backyard-burger/slide1.jpg',
 				'content' => "
 					<p class='lead'>
-						Al's beef is dry roasted in a secret recipe blend of 100% pure spices and natural juices. Our beef is pure. The Au Jus or 'Gravy' as Al calls it, gives our beef its unmistakable flavor.  We will add as little or as much gravy to your sandwich as you want. But most Al's connoisseurs prefer their beef sandwich wet or dipped, right into the gravy, and then add sweet and hot peppers.
+					Back Yard Burgers was founded in 1987 in Cleveland, Mississippi.<br />
+					Today, we can be found in 14 states, including: Alabama, Arkansas, Florida, Georgia, Illinois, Indiana, Kansas, Kentucky, Louisiana, Missouri, Mississippi, Nebraska, North Carolina, Ohio, Oklahoma, Pennsylvania, South Carolina, Tennessee and Virginia.
 					</p>
                     					
 					<p><a href='http://www.backyardburgers.com/' class='btn btn-clear' target='_blank'>Visit Website</a></p>
@@ -47,7 +48,14 @@
 				'content' => 'gallery',
 				'class' => 'media-gallery'
 				)
+		),
+
+		'video'	=> array(
+			'url'		=> 	'https://www.youtube.com/watch?v=QJePxasaezc',
+			'poster'	=> 	'public/videos/backyard-burger/poster.jpg'
 		)
+
+
 	);
 
 	include('header.php');

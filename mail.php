@@ -21,7 +21,20 @@ $message = "
 		</p>
 			<p><strong>Interested in Market:</strong><br />
 			".$_POST['country']."
-		</p>					
+		</p>	
+		</p>
+			<p><strong>Net Worth:</strong><br />
+			".$_POST['netWorth']."
+		</p>	
+		</p>
+			<p><strong>Cash Liquidity:</strong><br />
+			".$_POST['cashLiquidity']."
+		</p>		
+		</p>
+			<p><strong>When will you be able to invest?:</strong><br />
+			".$_POST['whenToInvest']."
+		</p>		
+
 	</body>
 </html>
 ";

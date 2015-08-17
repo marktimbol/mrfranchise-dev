@@ -22,9 +22,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2>FAQs</h2>
-						<p class="lead">
-							With over 800 units across the country and hundreds of Franchisees there are some frequently asked questions that should help guide you through this process.
-						</p>
 						<?php
 							$faqs = array(
 								'How long will it take to be approved and open a new Franchise?' => 'The application process from the date of your initial inquiry to approval by our executive team can vary depending on a number of factors (such as strength of the franchisee’s application and availability of real estate) but is typically a two to eight week process. We will work with you to determine together whether this is the right opportunity for you. Once approved by our executive team, depending on the real estate status you will be eight to sixteen months away from opening your doors.',

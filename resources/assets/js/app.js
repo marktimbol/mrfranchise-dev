@@ -17,6 +17,27 @@ jQuery(document).ready(function () {
         autoPlay: true
     });   
 
+    // var masonryInit = true; // set Masonry init flag
+    // if($('.masonry_container .item').length){
+    //     console.log('.item');
+    //     var $container = $('.masonry_container'); // our container
+    //     if(masonryInit){
+    //         // initialize Masonry only once
+    //         masonryInit = false;
+    //         $container.masonry({
+    //             itemSelector: '.item',
+    //             columnWidth: 200
+    //         });
+    //     }else{
+    //         $container.masonry('reloadItems'); // Reload masonry items oafter callback
+    //     }
+    //     $container.imagesLoaded( function() { // When images are loaded, fire masonry again.
+    //         $container.masonry();
+
+    //     });
+    // }
+  
+
     $('a#tellMeMore').on( 'click' , function() {
         if ( location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname ) {
             var target = $(this.hash);
